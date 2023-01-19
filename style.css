@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 80px;
+}
+
+main {
+  height: 300px;
+  display: flex;
+}
+
+footer {
+  height: 120px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+}
+
+.left ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
